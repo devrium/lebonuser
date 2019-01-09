@@ -1,0 +1,234 @@
+/*
+Theme Name: UBINOV
+Theme URI: http://ubinov.fr/
+Version: 1.0
+Author: Emmanuel MOZAR
+Author URI: http://ubinov.fr
+Tags: UBINOV, Devrium, clear themes
+*/
+body {
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background-color: #fff;
+	font-size: 13px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+img {
+	border: 0px;
+}
+ul {
+	margin: 15px 0px 10px 0px;
+	padding: 0px 15px 0px 15px;
+	float: left;
+}
+li {
+	margin: 0px 0px 3px 0px;
+	padding: 0px 0px 0px 0px;
+	float: left;
+}
+.body-admin {
+	background-color: #F7F7F7!important;
+	margin-top: 91px;
+	margin-bottom: 120px;
+}
+.fl  {
+	float: left;
+}
+.mail_link {
+	color: #A21229;
+	text-decoration: none;
+}
+.menu-items {
+	display: inline-block;
+	width: 100%;
+	height: 38px;
+	border-left: 4px solid #3276b1;
+	background-color: transparent;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 20px;
+	text-align: left;
+}
+.menu-items a{
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	text-align: left;
+}
+.selected-item {
+	float: left;
+	height: 28px;
+	background-color: #29393F;
+	margin: 0px 0px 30px 0px;
+	padding: 10px 20px 0px 20px;
+	text-align: center;
+	color: #ffffff;
+}
+.table-si th {
+    /*background-color: #009933!important;*/
+    background-color: #428bca!important;
+    color: #fff!important;
+}
+.dataTables_length {
+    width: 50%!important;
+    display: inline-block!important;
+}
+.dataTables_filter {
+    width: 50%!important;
+    display: inline-block!important;
+}
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.connect_form{
+	float: right;
+	width: 291px;
+}		
+/*------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.footer {
+	width: 100%;
+	background-color: #29393f;
+	height: 30px;
+	float: left;
+}
+.footer-color {
+	background-color: #171C26;
+	color: #fff;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.footer_color {
+	background-color: #171C26;
+	color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#span_mention {
+	color: #fff;
+	float: left;
+	font-size: 12px;
+	font-weight: normal;
+	margin: 5px 0px 0px 0px;
+}
+#span_copyright {
+	color: #fff;
+	float: right;
+	font-size: 12px;
+	font-weight: normal;
+	margin: 5px 0px 0px 0px;
+}
+.footer {
+	width: 100%;
+	background-color: #29393f;
+	height: 30px;
+	float: left;
+	margin: 40px 0px 0px 0px;
+}
+.htitle {
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0px 0px 15px 0px;
+}
+.footer_copy {
+	margin-top: 30px;
+	padding: 20px 0px;
+	border-top: 1px solid #2B303B;
+}
+.copyright_ubinov {
+	float: left;
+}
+.copyright_link {
+	color: #00ffff;
+	text-decoration: none;
+}
+.copyright_ubinov a:hover {
+	color: #00ffff;
+	text-decoration: none;
+}
+.social_box {
+	color: #ffffff;
+	float: right;
+}
+.socl {
+	margin: 0px 5px;
+}
+/*############################################################# ESPACE PERSONNEL #######################################################*/
+.page-focused {
+    display: inline-block;
+    width: 100%;
+    color: #171C26!important;
+    font-size: 24px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #171C26;
+    margin-bottom: 15px!important;
+}
+.page-focused a{
+    margin-left: 10px!important;
+}
+
+.property-line {
+	border-bottom: 1px solid #3276B1;
+	padding: 0px 0px 0px 0px!important;
+	margin: 0px 10px 0px 0px!important;
+}
+.subtop-txt {
+	font-size: 14px;
+	/*font-weight: bold;*/
+	border-bottom: 4px solid #3276B1;
+	color: #3276B1;
+	padding: 10px 10px 5px 0px;
+	display: inline-block;
+}
+.subbottom-txt {
+	font-size: 14px;
+	/*font-weight: bold;*/
+	color: #171C26;
+	display: inline-block;
+}
+.no-decoration {
+	text-decoration: none!important;
+}
+.light-font {
+	color: #fff;
+}
+.dark-font {
+	color: #000;
+}
+.color_darkblue {
+	color: #171C26;
+}
+.head-img {
+	height: 350px;
+}
+.no-margin{
+	margin: 0px!important;
+}
+.spec_paddin0 {
+	padding: 0px 0px 0px 0px!important;
+}
+.spec_margin20 {
+	margin-top: 15px!important;
+}
+.spec_paddintb {
+	padding: 15px 0px 15px 0px!important;
+}
+.spec_paddin {
+	padding: 15px 15px 15px 15px!important;
+}
+.spec0 {
+	margin-top: 20px!important;
+}
+.spec1 {
+	padding-right: 0px!important;
+	padding-top: 5px!important;
+	text-align: right;
+}
+.spec2 { margin: 5px 0px!important; }
+.spec3 { margin: 15px 0px!important; }
+/* ************************************ PAGE PROGRAMMES ************************************ */
+.div_bouton_terminer {
+	text-align: center;
+	margin: 10px 0px;
+}
+.bouton_terminer {
+	display: inline-block;
+}
