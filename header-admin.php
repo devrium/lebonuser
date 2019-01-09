@@ -30,20 +30,14 @@
 	<meta name="viewport" content="width=1024;" />
 	<title>Lebon user</title>
 	<link rel="stylesheet" href="<?php echo $absolute_url; ?>/assets/css/styles.css" />
-	<link rel="stylesheet" href="<?php echo $absolute_url; ?>/assets/css/recherche.css" />	
 	<link rel="stylesheet" href="<?php echo $absolute_url; ?>/assets/css/suivi_immobilier.css" />	
-	<link rel="stylesheet" href="<?php echo $absolute_url; ?>/assets/css/resultats.css" />
-	<link rel="stylesheet" href="<?php echo $absolute_url; ?>/assets/css/programme.css" />
 	<link rel="stylesheet" href="<?php echo $absolute_url; ?>/assets/css/bootstrap-datepicker3.css" />
-	<!--<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />-->
 	<link rel="stylesheet" href="<?php echo $absolute_url; ?>/assets/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="<?php echo $absolute_url; ?>/assets/skins/all.css?v=1.0.2" rel="stylesheet" />
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="<?php echo $absolute_url; ?>/assets/bootstrap/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="//cdn.datatables.net/plug-ins/1.10.7/integration/bootstrap/3/dataTables.bootstrap.css">
 	<link rel="stylesheet" href="<?php echo $absolute_url; ?>/assets/css/toastr.css" type="text/css"/>
 	<script src="<?php echo $absolute_url; ?>/assets/js/jquery.min.js"></script>
-	<script type="text/javascript" src="<?php echo $absolute_url; ?>/assets/js/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="<?php echo $absolute_url; ?>/assets/bootstrap/js/bootstrap.min.js"></script>	
 	<script type="text/javascript" src="<?php echo $absolute_url; ?>/assets/js/bootstrap-datepicker.js"></script>		
 	<script type="text/javascript" src="<?php echo $absolute_url; ?>/assets/locales/bootstrap-datepicker.fr.min.js"></script>
