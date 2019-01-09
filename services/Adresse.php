@@ -20,7 +20,7 @@ class Adresse extends Si{
 		$crit="";
 		if(isset($oData['id_lead'])){ $crit.=" AND adresses.addr_lead='".$oData['id_lead']."'"; }
 		if($lookfor!=""){ 
-			$crit.=" AND adresses.addr_user='".$oParam->user."' AND ( adresses.addr_titre LIKE '%".$lookfor."%' OR adresses.addr_ville LIKE '".$lookfor."%' OR adresses.addr_created LIKE  '".str_replace('/','-',date('Y-m-d', strtotime($lookfor)))."%' OR users.user_prenom LIKE '%".$lookfor."%' OR users.user_nom  LIKE '%".$lookfor."%')";
+			$crit.=" AND adresses.addr_user='".$oParam->user."' AND ( adresses.addr_rue LIKE '".$lookfor."%' OR adresses.addr_cp LIKE '".$lookfor."%' OR adresses.addr_ville LIKE '".$lookfor."%' OR adresses.addr_created LIKE  '".str_replace('/','-',date('Y-m-d', strtotime($lookfor)))."%' OR users.user_prenom LIKE '%".$lookfor."%' OR users.user_nom  LIKE '%".$lookfor."%')";
 		}
 		$query="SELECT * FROM adresses";
 		$query.=" LEFT JOIN users ON users.user_id=adresses.addr_lead";
